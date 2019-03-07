@@ -1,0 +1,20 @@
+{
+  "name": "koa-webserver",
+  "version": "1.0.0",
+  "description": "Template-ready webserver on Koa",
+  "main": "app.js",
+  "scripts": {
+    "start": "pm2 start app.js -n koa-webserver"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "fs-extra": "^7.0.1",
+    "koa": "^2.6.2",
+    "koa-mustache": "0.0.2",
+    "koa-static": "^5.0.0",
+    "ramda": "^0.26.1",
+    "sharon-storage": "^1.0.1"
+  }
+}
